@@ -1,3 +1,14 @@
 sudo
-zip
+ruby
+tree
+less
+file
+rsync
+pandoc
+graphviz
+man-db
+jq
+poppler-utils
 unzip
+vim
+zip
