@@ -1,4 +1,3 @@
 sudo
 zip
 unzip
-&& true
