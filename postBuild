@@ -1,1 +1,1 @@
-echo would be nice ... adduser jovyan sudo
+# python -m bash_kernel.install
