@@ -10,5 +10,7 @@ man-db
 jq
 poppler-utils
 unzip
+uuid
 vim
+wamerican-insane
 zip
