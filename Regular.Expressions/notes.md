@@ -1,6 +1,8 @@
 # Simplifying
 The regular expressions can be stored in variables and then called.  After each guess, the regexes are updated.
 
+The game: https://wordleplay.com?challenge=bGVhZHk=
+
 ```bash
 wordle_first='/^/ && /^./ && /^../ && /^.../ && /^..../'
 wordle_second='[:]'
