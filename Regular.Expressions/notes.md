@@ -11,6 +11,11 @@ wordle_third_2='/^[:]|^.[:]|^..[:]|^...[:]|^....[:]'
 ```
 
 ```bash
+# Inital setup of 5-letter words
+egrep '^[a-z]{5}$' /usr/share/dict/words > /tmp/words.5-letters.txt
+```
+
+```bash
 # size of solution space
 cat /tmp/words.5-letters.txt |
 awk "${wordle_first}" |
