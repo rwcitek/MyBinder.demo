@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pip install bash_kernel
-python -m bash_kernel.install
+python3 -m bash_kernel.install
