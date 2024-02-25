@@ -1,0 +1,5 @@
+oryx-build-commands.txt
+.ipynb_checkpoints/
+
+Initial.Data.Analysis/*.txt
+Initial.Data.Analysis/*.dat
