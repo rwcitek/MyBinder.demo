@@ -1,7 +1,9 @@
 #!/bin/bash
 
+[ "${HISTFILE}" ] || { echo -e "Use 'source' instead ... \nsource $0" ; exit ; }
+
 # Configure history
-{ cat <<'EOF'
+{ cat <<'EOF' > "${HISTFILE}"
 ./data.science.sh 
 docker container list -a
 docker container stop jupyter
@@ -11,7 +13,8 @@ h > $HISTFILE
 history -r
 history -a
 EOF
-} > $HISTFILE
+}
+
 history -r
 
 
