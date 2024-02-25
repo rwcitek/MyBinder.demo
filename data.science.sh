@@ -12,11 +12,6 @@ docker container run \
 
 sleep 1
 
-
-
-# apt-get install -y wamerican-insane file bsdmainutils curl
-
-
 docker container exec jupyter bash Initial.Data.Analysis/bash.setup.sh >& /dev/null
 
 echo -e "\n\n\n       http://127.0.0.1:8888/lab \n\n\n"
