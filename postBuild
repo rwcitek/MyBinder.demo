@@ -1,3 +1,0 @@
-cat << 'eof' >> ~/.bash_aliases
-alias ls='ls -1F --color'
-eof

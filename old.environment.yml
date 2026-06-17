@@ -1,8 +1,0 @@
-dependencies:
-- bash_kernel
-- graphviz
-- lxml
-- html5lib
-- numpy
-- scipy
-- pandas
